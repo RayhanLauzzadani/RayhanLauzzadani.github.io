@@ -7,7 +7,194 @@
     height: auto;
 }
 
+.rayhan-ukuranlogo-Z {
+    position: relative;
+    right: 15px;
+    width: 20px;
+    top: 15px;
+}
+
+.rayhan-area img{
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rayhan-area {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* home */
+.rayhan-home {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
+
+/* Header */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 20px;
+    font-size: 17px;
+    color: #fefefd;
+    margin: 0px 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1d1d1d;
+}
+
+.navbar-brand {
+    margin: 0px;
+    float: right;
+}
+
+.serach_icon{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.serach_icon a{
+    color: #ffffff;
+}
+
+.serach_icon a:hover{
+    color: #1d1d1d;
+}
+
+/* banner section start */
+.rayhan-banner-depanbg {
+    position: absolute;
+    top: 100;
+}
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-color: #fefefd;
+    height: auto;
+    background-size: 100%;
+    padding: 0px 0px 90px 0px;
+}
+
+.banner_taital_main {
+    width: 100%;
+    float: left;
+    padding-top: 90px;
+}
+
+.banner_taital {
+    width: 100%;
+    font-size: 50px;
+    color: #e3eeee;
+    font-weight: bold;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.banner_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    color: #e3eeee;
+    margin: 20px 0px 0px 0px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.contact_bt {
+    width: 175px;
+    float: left;
+}
+
+.contact_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #f9110c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact_bt a:hover {
+    color: #fcf8f8;
+    background-color: #1d1d1d;
+}
+
+.contact_bt.active a {
+    color: #fcf8f8;
+    background-color: #1d1d1d;
+    margin-left: 10px;
+}
+
+.banner_img {
+    width: 100%;
+    float: left;
+}
+
+.banner_img img {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#banner_slider a.carousel-control-prev {
+    left: -120px;
+    top: 155px;
+    right: initial;
+}
+
+#banner_slider a.carousel-control-next {
+    right: initial;
+    top: 100px;
+    left: -120px;
+    color: #fcf8f8;
+    background-color: #041133;
+}
+
+#banner_slider .carousel-control-next,
+#banner_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    opacity: 1;
+    font-size: 30px;
+    color: #fcf8f8;
+    background-color: #1d1d1d;
+}
+
+#banner_slider .carousel-control-next:focus,
+#banner_slider .carousel-control-next:hover,
+#banner_slider .carousel-control-prev:focus,
+#banner_slider .carousel-control-prev:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+/* banner section end */

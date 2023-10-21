@@ -12,15 +12,9 @@
 
 .rayhan-ukuranlogo-Z {
     position: relative;
-<<<<<<< HEAD
     right: -2px;
     width: 40px;
     top: 7px;
-=======
-    right: 15px;
-    width: 20px;
-    top: 15px;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
 }
 
 .rayhan-area img{
@@ -42,16 +36,11 @@
     position: relative;
     max-width: 100%;
     height: 100vh;
-<<<<<<< HEAD
     background: url("bgbl.jpg") no-repeat;
-=======
-    background: url("bg.jpg") no-repeat;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
     background-size: cover;
     background-position: center;
 }
 
-<<<<<<< HEAD
 .rayhan-home .overlay {
     position: absolute;
     top: 0;
@@ -61,8 +50,6 @@
     background-image: linear-gradient(to top, #000 10%, transparent);
 }
 
-=======
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
@@ -75,11 +62,7 @@ body {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0px 20px;
     font-size: 17px;
-<<<<<<< HEAD
     color: #ffffff;
-=======
-    color: #fefefd;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
     margin: 0px 5px;
 }
 
@@ -114,23 +97,8 @@ body {
     top: 100;
 }
 
-<<<<<<< HEAD
 .banner_taital_main {
     width: 100%;
-=======
-.banner_section {
-    width: 100%;
-    float: left;
-    background-color: #fefefd;
-    height: auto;
-    background-size: 100%;
-    padding: 0px 0px 90px 0px;
-}
-
-.banner_taital_main {
-    width: 100%;
-    float: left;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
     padding-top: 90px;
 }
 
@@ -148,10 +116,6 @@ body {
     float: left;
     font-size: 16px;
     color: #e3eeee;
-<<<<<<< HEAD
-=======
-    margin: 20px 0px 0px 0px;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
 }
 
 .btn_main {
@@ -171,10 +135,7 @@ body {
     font-size: 18px;
     background-color: #f9110c;
     color: #ffffff;
-<<<<<<< HEAD
-=======
     text-align: center;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
     padding: 10px;
 }
 
@@ -189,46 +150,16 @@ body {
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
 #banner_slider a.carousel-control-prev {
     left: initial;
     top: 155px;
     right: -120px;
-=======
-.banner_img {
-    width: 100%;
-    float: left;
-}
-
-.banner_img img {
-    width: 500px;
-    margin-top: 30px;
-    margin-left: 80px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-#banner_slider a.carousel-control-prev {
-    left: -120px;
-    top: 155px;
-    right: initial;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
 }
 
 #banner_slider a.carousel-control-next {
     right: initial;
-<<<<<<< HEAD
     top: 155px;
     left: -120px;
-=======
-    top: 100px;
-    left: -120px;
-    color: #fcf8f8;
-    background-color: #041133;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
 }
 
 #banner_slider .carousel-control-next,
@@ -237,17 +168,11 @@ body {
     height: 55px;
     opacity: 1;
     font-size: 30px;
-<<<<<<< HEAD
-=======
-    color: #fcf8f8;
-    background-color: #1d1d1d;
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e
 }
 
 #banner_slider .carousel-control-next:focus,
 #banner_slider .carousel-control-next:hover,
 #banner_slider .carousel-control-prev:focus,
-<<<<<<< HEAD
 #banner_slider .carousel-control-prev:hover 
 .carousel-control-prev-icon:hover .carousel-control-next-icon:hover {
     color: #3c3737;    
@@ -579,11 +504,8 @@ textarea#comment.massage-bt::placeholder {
 
 
 /* contact section end */
-=======
 #banner_slider .carousel-control-prev:hover {
     color: #ffffff;
     background-color: #ffffff;
 }
 
-/* banner section end */
->>>>>>> ca2cd3642959c8533b5fc4ee79e93dd05da2c70e

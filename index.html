@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Punya Ilung</title>
+   <link rel="icon" href="hurufr.png" />
+   <title>Billiards Pool</title>
+   <!-- css custom -->
    <link rel="stylesheet" type="" href="style.css">
+   <link rel="stylesheet" type="" href="responsive.css">
+   <!-- bootstrap css -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <!-- Js bootstrapcdn -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+   <!-- Next & Previous Icon -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,76 +28,75 @@
       <div class="overlay">
          <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg ">
-               <a class="navbar-brand" href="index.html"><img class="rayhan-ukuranlogo-R" src="hurufr.png"><img
-                     class="rayhan-ukuranlogo-Z" src="hurufz.png"></a>
+               <a class="navbar-brand" href="index.html"><img class="rayhan-ukuranlogo-R" src="hurufr.png" alt=""><img
+                     class="rayhan-ukuranlogo-Z" src="hurufz.png" alt=""></a>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="home">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="services">Services</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="place">Place</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contactform">Contact Us</a>
                      </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                     <div class="serach_icon"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
-                  </form>
                </div>
             </nav>
          </div>
-         <div class="container">
-                  <div id="banner_slider" class="carousel slide" data-ride="carousel">
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="banner_taital_main">
-                              <h1 class="banner_taital">Haloo<br>Rekk!!</h1>
-                              <p class="banner_text">Agar Silaturahmi tidak terputus, pinjam dulu seratus</p>
-                              <div class="btn_main">
-                                 <div class="contact_bt"><a href="#">Contact Me</a></div>
-                                 <div class="contact_bt active"><a href="#">Invite Me!</a></div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="banner_taital_main">
-                              <h1 class="banner_taital">My World<br>is Yours</h1>
-                              <p class="banner_text">Love uuu</p>
-                              <div class="btn_main">
-                                 <div class="contact_bt"><a href="#">Mang Eakk</a></div>
-                                 <div class="contact_bt active"><a href="#">Apa iya deck</a></div>
-                              </div>
-                           </div>
+         <div class="container container-start" id="home">
+            <div id="banner_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="banner_taital_main">
+                        <h1 class="banner_taital">Welcome<br>To My Page</h1>
+                        <p class="banner_text">Hello, let me introduce myself, my name is Rayhan Lauzzadani, here I want
+                           to explain what this website is really for, so this website was created to introduce the
+                           sport of billiards to people who have never played it.</p>
+                        <div class="btn_main">
+                           <div class="contact_bt"><a href="#">Contact Me</a></div>
+                           <div class="contact_bt active"><a href="#">Invite Me!</a></div>
                         </div>
                      </div>
-                     <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden"></span>
-                     </a>
-                     <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden"></span>
-                     </a>
                   </div>
+                  <div class="carousel-item">
+                     <div class="banner_taital_main">
+                        <h1 class="banner_taital">Are you<br>Ready?</h1>
+                        <p class="banner_text">Lets gooo!!!</p>
+                        <div class="btn_main">
+                           <div class="contact_bt"><a href="#">Goo</a></div>
+                           <div class="contact_bt active"><a href="#">Wohoo</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+               </a>
+            </div>
          </div>
    </header>
    <!-- header section end -->
    <!-- about section start -->
-   <div class="about_section layout_padding">
+   <div class="about_section" id="about">
       <div class="container-fluid">
          <div class="row">
             <div class="col-md-7">
                <div class="about_taital_main">
                   <h1 class="about_taital">About Billiards</h1>
-                  <p class="about_text">Billiards is a cue sport that is typically played on a rectangular table covered with a cloth and surrounded by cushions. The objective of the game is to score points by potting balls into pockets or, in some variations, by caroming them off other balls.</p>
+                  <p class="about_text">Billiards is a cue sport that is typically played on a rectangular table covered
+                     with a cloth and surrounded by cushions. The objective of the game is to score points by potting
+                     balls into pockets or, in some variations, by caroming them off other balls.</p>
                   <div class="readmore_bt"><a href="#">Read More</a></div>
                </div>
             </div>
@@ -99,85 +108,102 @@
    </div>
    <!-- about section end -->
    <!-- services section start -->
-   <div class="services_section layout_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <h1 class="services_taital">Why Choose Us?</h1>
-            </div>
-         </div>
-         <div class="services_section_2">
+   <div class="rayhan-section-3">
+      <div class="overlay">
+         <div class="container-fluid">
             <div class="row">
-               <div class="col-md-4">
-                  <div class="color_bt"><a href="#">Faux Finishes</a></div>
-               </div>
-               <div class="col-md-4">
-                  <div class="color_bt active"><a href="#">Water Proofing</a></div>
-               </div>
-               <div class="col-md-4">
-                  <div class="color_bt"><a href="#">Pre-Paint Demo</a></div>
+               <div class="col-md-12">
+                  <h1 class="services_taital">SERVICES RELATED TO BILLIARDS</h1>
                </div>
             </div>
-         </div>
-         <div class="services_section_2">
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="color_bt active"><a href="#">Mildew Removal</a></div>
-               </div>
-               <div class="col-md-4">
-                  <div class="color_bt"><a href="#">Color Proof</a></div>
-               </div>
-               <div class="col-md-4">
-                  <div class="color_bt active"><a href="#">Window Washing</a></div>
+            <div class="services_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="color_bt"><a href="#">Billiard Table Installation and Maintenance</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="color_bt active"><a href="#">Billiard Equipment Sales</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="color_bt"><a href="#">Billiard Lessons and Coaching</a></div>
+                  </div>
                </div>
             </div>
+            <div class="services_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="color_bt active"><a href="#">Billiard Table Re-clothing</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="color_bt"><a href="#">Billiard Table Moving and Relocation</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="color_bt active"><a href="#">Billiard Repair and Refurbishment</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="read_bt"><a href="#">Read More</a></div>
          </div>
-         <div class="read_bt"><a href="#">Read More</a></div>
       </div>
    </div>
    <!-- services section end -->
    <!-- blog section start -->
-   <div class="blog_section layout_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <h1 class="blog_taital">Our Blog</h1>
-            </div>
-         </div>
-         <div class="choose_section_2">
+   <div class="rayhan-section-event">
+      <div class="overlay">
+         <div class="container">
             <div class="row">
-               <div class="col-sm-4">
-                  <div class="blog_img"><img src="bl.jpg"></div>
-                  <h4 class="date_text">01 May</h4>
-                  <h4 class="safety_text">How does WordPress blog work</h4>
-                  <p class="ipsum_text">vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                  <div class="read_bt1"><a href="#">Read More</a></div>
+               <div class="col-md-12">
+                  <h1 class="blog_taital">Pool Hall in Surabaya</h1>
                </div>
-               <div class="col-sm-4">
-                  <div class="blog_img"><img src="bl.jpg"></div>
-                  <h4 class="date_text">01 May</h4>
-                  <h4 class="safety_text">How does WordPress blog work</h4>
-                  <p class="ipsum_text">vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                  <div class="read_bt1"><a href="#">Read More</a></div>
-               </div>
-               <div class="col-sm-4">
-                  <div class="blog_img"><img src="bl.jpg"></div>
-                  <h4 class="date_text">01 May</h4>
-                  <h4 class="safety_text">How does WordPress blog work</h4>
-                  <p class="ipsum_text">vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                  <div class="read_bt1"><a href="#">Read More</a></div>
+            </div>
+            <div class="choose_section_2">
+               <div class="row">
+                  <div class="col-sm-4">
+                     <div class="card" style="width: 18rem;">
+                        <img src="galaxy-pool.jpg" class="card-img-top" alt="galaxy-pool">
+                        <div class="card-body">
+                           <h5 class="card-title">Galaxy Pool</h5>
+                           <p class="card-text">Galaxy Pool is the largest billiard venue in East Java and supports
+                              Indonesian billiard athletes.</p>
+                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="card" style="width: 18rem;">
+                        <img src="strike-pool.jpg" class="card-img-top" alt="galaxy-pool">
+                        <div class="card-body">
+                           <h5 class="card-title">Strike Pool</h5>
+                           <p class="card-text">Good ambience for playing pool in surabaya, central of city, closed at 2
+                              pm.</p>
+                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="card" style="width: 18rem;">
+                        <img src="koko-ball.jpg" class="card-img-top" alt="galaxy-pool">
+                        <div class="card-body">
+                           <h5 class="card-title">Koko 9 Ball</h5>
+                           <p class="card-text">The location is strategic, and the place is very comfortable.
+                              Recommended as a favorite billiard place in Surabaya.</p>
+                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
       </div>
    </div>
    <!-- blog section end -->
-   <!-- contact section start -->
+   <!-- section form start -->
    <div class="contact_section layout_padding">
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
-               <h1 class="contact_taital">Get In Touch</h1>
+               <h1 class="contact_taital">Want to play together?</h1>
+               <span class="contact_taital2">You can fill in the following form</span>
             </div>
          </div>
       </div>
@@ -186,18 +212,49 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="mail_section_1">
-                     <input type="text" class="mail_text" placeholder="Name" name="Name">
-                     <input type="text" class="mail_text" placeholder="Email" name="Email">
-                     <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number">
-                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                     <div class="send_bt"><a href="#">Send</a></div>
+                     <!-- Input Nama -->
+                     <div>
+                        <input type="text" class="mail_text" placeholder="Name" id="nama" name="Name">
+                     </div>
+                     <!-- Input Email -->
+                     <div>
+                        <input type="text" class="mail_text" placeholder="Email" id="email" name="Email">
+                     </div>
+                     <!-- Validasi Email -->
+                     <div id="validasiEmail"></div>
+                     <!-- Input Pesan -->
+                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Message"></textarea>
+                     <!-- Validasi pesan -->
+                     <div>
+                        <div id="validasiComment" class="mb-2"></div>
+                     </div>
+
+                     <button onclick="validateInput()" type="submit" id="submit" class="btn btn-dark" href="#">Submit</button>
+
+                     <div class="col-md-2 col-lg-3"></div>
+                     <div class="col-12 col-md-8 col-lg-6">
+                        <div id="sendmessage"></div>
+                     </div>
+                     <div class="col-md-2 col-lg-3"></div>
                   </div>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- contact section end -->
+   <!-- section form end -->
+   <!-- copyright section start -->
+   <div class="copyright_section">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <p class="copyright_text mt-4">Billiards Pool &#169; 2023, Rayhan Lauzzadani</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- copyright section end -->
 </body>
+<script src="index.js"></script>
 
 </html>
